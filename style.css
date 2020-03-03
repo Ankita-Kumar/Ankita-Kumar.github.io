@@ -1,4 +1,66 @@
-#about-me {
-    background-color: indianred;
-    
+body{
+    background-color: rgb(228, 161, 183);
 }
+
+#about-me {
+    margin: auto;
+    width: 90%;
+    font-size: large;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#pic{
+    align-content: center;
+    margin: auto;
+    width: 50%;
+
+}
+
+#more-text{
+    align-content: center;
+    padding:4px;
+    color:  rgb(63, 17, 42) ;
+}
+
+#more{
+    background-color: rgb(247, 186, 207);
+    width: 30%;
+    margin: auto;
+    border: rgb(63, 17, 42) solid 2px;
+    /*align-content: left;*/
+}
+
+#projects{
+    margin: auto;
+    padding-left: 20%;
+    display: flex;
+}
+
+
+#p1{
+    float: left;
+    width: 49%;
+    margin: 0px;
+    padding: 0px;
+    /*border: darkblue solid 3px;*/
+}
+
+#p2{
+    float: right;
+    width: 49%;
+    margin: 0px;
+    padding: 0px;
+    /*border: darkblue solid 3px;*/
+
+}
+
+.text{
+    align-content: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
